@@ -1,0 +1,88 @@
+body {
+  min-width: 350px;
+  background-color: #40E0D0;
+}
+
+header {
+  background-color: #C0C0C0;
+}
+
+footer {
+  background-color: darkgray;
+  margin: 20px 0 0 0;
+  padding: 15px 0;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+  font-family: "Lucida Console", Monaco, monospace;
+  padding: 60px 0 20px 20px;
+  margin: 0;
+  float: left;
+}
+
+h3 {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 24px;
+  color: black;
+  float: left;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+p {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size:18px;
+}
+
+ul {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+ol {
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+main {
+  padding-left: 20px;
+  padding: 20px;
+}
+
+/* nav box for contact me */
+nav {
+  font-family: "Lucida Console", Monaco, monospace;
+  background-color: #40E0D0;
+  border: 2px solid #000;
+  padding: 10px;
+  margin: 60px 20px 0 0;
+  height: 20px;
+  width: 20%;
+  float: right;
+  text-align: center;
+  color: black;
+}
+
+header:after, 
+nav:after {
+  content: " ";
+  display: table;
+  clear: both;
+}  
+
+/*contact me section*/
+article {
+  padding: 10px;
+}
+
+/*picture of me*/
+img { 
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
